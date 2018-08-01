@@ -30,8 +30,8 @@ def GetOpener():
 
 def login(opener):
     data = {
-        'email':'x',
-        'password':'x'
+        'email':'17625567763',
+        'password':'isolate36'
     }
     data = parse.urlencode(data).encode('utf-8')
     login_url = 'http://www.renren.com/PLogin.do'
