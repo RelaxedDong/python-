@@ -19,5 +19,5 @@ data = {
 req = request.Request(url=url,headers=headers,data=parse.urlencode(data).encode('utf-8'),method='POST')
 res = request.urlopen(req)
 
-
-print(res.read().decode('utf-8'))
+request.urlretrieve(url,'人人网.html')
+# print(res.read().decode('utf-8'))
