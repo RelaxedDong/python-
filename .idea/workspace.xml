@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fca8d4c-f4ce-4666-bd0a-1d6d4e925bf5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/网络请求/cookie.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/网络请求/Request类.py" afterPath="$PROJECT_DIR$/网络请求/Request类.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,8 +23,8 @@
       <file leaf-file-name="cookie.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/网络请求/cookie.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
-              <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+            <state relative-caret-position="329">
+              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -280,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1533101584353</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="cookie模拟登录">
+      <created>1533112974518</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1533112974518</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -317,7 +322,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="网络请求" />
-    <option name="LAST_COMMIT_MESSAGE" value="网络请求" />
+    <MESSAGE value="cookie模拟登录" />
+    <option name="LAST_COMMIT_MESSAGE" value="cookie模拟登录" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -468,8 +474,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/网络请求/cookie.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+        <state relative-caret-position="329">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
       </provider>
