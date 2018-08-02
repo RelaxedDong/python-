@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fca8d4c-f4ce-4666-bd0a-1d6d4e925bf5" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/网络请求/requests库/cookie和session.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/网络请求/requests库/使用代理.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/网络请求/requests库/发送请求.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,6 +17,8 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/$MozillaCookieJar.coverage" NAME="MozillaCookieJar Coverage Results" MODIFIED="1533127924133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络请求" />
     <SUITE FILE_PATH="coverage/$urllib.coverage" NAME="urllib库 Coverage Results" MODIFIED="1533092905807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络请求" />
+    <SUITE FILE_PATH="coverage/$.coverage" NAME="使用代理 Coverage Results" MODIFIED="1533200887067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络请求/requests库" />
+    <SUITE FILE_PATH="coverage/$cookiesession.coverage" NAME="cookie和session Coverage Results" MODIFIED="1533201462991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络请求/requests库" />
     <SUITE FILE_PATH="coverage/$Request.coverage" NAME="Request类 Coverage Results" MODIFIED="1533111674054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络请求" />
     <SUITE FILE_PATH="coverage/$cookie.coverage" NAME="cookie Coverage Results" MODIFIED="1533112537409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络请求" />
     <SUITE FILE_PATH="coverage/$proxyhandler.coverage" NAME="proxyhandler代理 Coverage Results" MODIFIED="1533110710962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络请求" />
@@ -22,23 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="MozillaCookieJar.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/网络请求/MozillaCookieJar.py">
+      <file leaf-file-name="cookie和session.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/网络请求/requests库/cookie和session.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cookie.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/网络请求/cookie.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="11" />
+            <state relative-caret-position="101">
+              <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -68,6 +61,10 @@
         <option value="$PROJECT_DIR$/网络请求/cookiejar.py" />
         <option value="$PROJECT_DIR$/网络请求/cookie.txt" />
         <option value="$PROJECT_DIR$/网络请求/MozillaCookieJar.py" />
+        <option value="$PROJECT_DIR$/网络请求/requests库/demo_01.py" />
+        <option value="$PROJECT_DIR$/网络请求/requests库/发送请求.py" />
+        <option value="$PROJECT_DIR$/网络请求/requests库/使用代理.py" />
+        <option value="$PROJECT_DIR$/网络请求/requests库/cookie和session.py" />
       </list>
     </option>
   </component>
@@ -99,6 +96,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,11 +109,16 @@
               <item name="爬虫代码" type="462c0819:PsiDirectoryNode" />
               <item name="网络请求" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="爬虫代码" type="b2602c69:ProjectViewProjectNode" />
+              <item name="爬虫代码" type="462c0819:PsiDirectoryNode" />
+              <item name="网络请求" type="462c0819:PsiDirectoryNode" />
+              <item name="requests库" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -137,7 +140,45 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MozillaCookieJar">
+  <component name="RunManager" selected="Python.cookie和session">
+    <configuration name="发送请求" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络请求/requests库" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="爬虫代码" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络请求/requests库/发送请求.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="使用代理" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络请求/requests库" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="爬虫代码" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络请求/requests库/使用代理.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="MozillaCookieJar" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -152,44 +193,6 @@
       <module name="爬虫代码" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络请求/MozillaCookieJar.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Request类" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络请求" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="爬虫代码" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络请求/Request类.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="cookie" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络请求" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="爬虫代码" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络请求/cookie.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -214,39 +217,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="proxyhandler代理" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="cookie和session" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络请求" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络请求/requests库" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="爬虫代码" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络请求/proxyhandler代理.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络请求/requests库/cookie和session.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Request类" />
-      <item index="1" class="java.lang.String" itemvalue="Python.proxyhandler代理" />
-      <item index="2" class="java.lang.String" itemvalue="Python.cookie" />
-      <item index="3" class="java.lang.String" itemvalue="Python.cookiejar" />
-      <item index="4" class="java.lang.String" itemvalue="Python.MozillaCookieJar" />
+      <item index="0" class="java.lang.String" itemvalue="Python.cookiejar" />
+      <item index="1" class="java.lang.String" itemvalue="Python.MozillaCookieJar" />
+      <item index="2" class="java.lang.String" itemvalue="Python.发送请求" />
+      <item index="3" class="java.lang.String" itemvalue="Python.使用代理" />
+      <item index="4" class="java.lang.String" itemvalue="Python.cookie和session" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.MozillaCookieJar" />
-        <item index="1" class="java.lang.String" itemvalue="Python.cookiejar" />
-        <item index="2" class="java.lang.String" itemvalue="Python.cookie" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Request类" />
-        <item index="4" class="java.lang.String" itemvalue="Python.proxyhandler代理" />
+        <item index="0" class="java.lang.String" itemvalue="Python.cookie和session" />
+        <item index="1" class="java.lang.String" itemvalue="Python.使用代理" />
+        <item index="2" class="java.lang.String" itemvalue="Python.发送请求" />
+        <item index="3" class="java.lang.String" itemvalue="Python.MozillaCookieJar" />
+        <item index="4" class="java.lang.String" itemvalue="Python.cookiejar" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1533128024489</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="cookie本地保存">
+      <created>1533128043142</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1533128043142</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -308,23 +318,23 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35347778" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2736602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1443133" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14645922" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -368,11 +378,128 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/网络请求/requests库/发送请求.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络请求/requests库/baidu中国.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52656">
+          <caret line="2191" column="0" lean-forward="true" selection-start-line="2191" selection-start-column="0" selection-end-line="2191" selection-end-column="0" />
+          <folding>
+            <element signature="e#52414#52561#2" expanded="true" />
+            <element signature="e#67472#67491#1" expanded="true" />
+            <element signature="e#71905#72192#1" expanded="true" />
+            <element signature="e#74329#74348#1" expanded="true" />
+            <element signature="e#74912#75203#2" expanded="true" />
+            <element signature="e#83974#83993#1" expanded="true" />
+            <element signature="e#88407#88694#1" expanded="true" />
+            <element signature="e#90831#90850#1" expanded="true" />
+            <element signature="e#91414#91705#2" expanded="true" />
+            <element signature="n#style#0;n#a#8;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#i#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#i#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#i#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#i#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#i#0;n#td#1;n#tr#4;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tbody#1;n#table#0;n#div#0;n#div#0;n#div#3;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tbody#2;n#table#0;n#div#0;n#div#0;n#div#3;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#237224#237228#0" expanded="true" />
+            <element signature="e#237228#237232#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#239086#239092#0" expanded="true" />
+            <element signature="e#239093#239099#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#239445#239451#0" expanded="true" />
+            <element signature="e#239847#239853#0" expanded="true" />
+            <element signature="e#239854#239860#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h3#0;n#div#2;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#242128#242134#0" expanded="true" />
+            <element signature="e#243189#243195#0" expanded="true" />
+            <element signature="e#243196#243202#0" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#3;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#249238#249244#1" expanded="true" />
+            <element signature="e#250790#250796#1" expanded="true" />
+            <element signature="e#252225#252231#1" expanded="true" />
+            <element signature="e#253666#253672#1" expanded="true" />
+            <element signature="e#254785#254789#0" expanded="true" />
+            <element signature="e#254789#254793#0" expanded="true" />
+            <element signature="e#270535#270539#0" expanded="true" />
+            <element signature="e#270539#270543#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#5;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#5;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#5;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#272713#272719#0" expanded="true" />
+            <element signature="e#273958#273964#0" expanded="true" />
+            <element signature="e#273965#273971#0" expanded="true" />
+            <element signature="e#274499#274505#0" expanded="true" />
+            <element signature="e#274506#274512#0" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#6;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#1;n#div#6;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#2;n#div#0;n#div#1;n#div#6;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#3;n#div#0;n#div#1;n#div#6;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#4;n#div#0;n#div#1;n#div#6;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#318640#318646#0" expanded="true" />
+            <element signature="e#318647#318653#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#7;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#321219#321225#0" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#div#0;n#div#7;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#div#7;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#321732#321738#0" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#7;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#3;n#div#0;n#div#7;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#322211#322217#0" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#3;n#div#0;n#div#7;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#4;n#div#0;n#div#7;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#322685#322691#0" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#4;n#div#0;n#div#7;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#5;n#div#0;n#div#7;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#323181#323187#0" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#5;n#div#0;n#div#7;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#8;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#8;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#8;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#324802#324808#0" expanded="true" />
+            <element signature="e#325180#325186#0" expanded="true" />
+            <element signature="e#325187#325193#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#p#1;n#div#1;n#div#0;n#div#0;n#div#9;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#327493#327497#0" expanded="true" />
+            <element signature="e#327497#327501#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#2;n#div#0;n#div#9;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#339236#339240#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1533130785867" expanded="true" signature="118249:118298" ph="..." />
+            <marker date="1533130785867" expanded="true" signature="347444:347490" ph="..." />
+            <marker date="1533130785867" expanded="true" signature="347729:347775" ph="..." />
+            <marker date="1533130785867" expanded="true" signature="348829:348835" ph=" " />
+            <marker date="1533130785867" expanded="true" signature="349930:349944" ph="..." />
+            <marker date="1533130785867" expanded="true" signature="351213:351245" ph="..." />
+            <marker date="1533130785867" expanded="true" signature="351765:351771" ph=" " />
+            <marker date="1533130785867" expanded="true" signature="374453:374465" ph="..." />
+            <marker date="1533130785867" expanded="true" signature="381407:381420" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/网络请求/cookie.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -380,24 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#6;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#8;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#span#0;n#a#0;n#li#9;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#span#0;n#a#0;n#li#10;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#27395#27401#0" expanded="false" />
-            <element signature="e#32365#32371#0" expanded="false" />
-            <element signature="e#34010#34016#0" expanded="false" />
-            <element signature="n#style#0;n#p#5;n#div#2;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#span#7;n#p#5;n#div#2;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#span#8;n#p#5;n#div#2;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#38915#38921#0" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#span#11;n#p#5;n#div#2;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1533117745584" expanded="true" signature="5308:5377" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -405,7 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -413,9 +521,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="35" column="42" lean-forward="true" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-          <folding>
-            <element signature="e#598#634#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -483,20 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/网络请求/urlparse和urlsplit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="3" lean-forward="false" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网络请求/urllib库.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/网络请求/Request类.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -523,7 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -539,7 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="34" column="47" lean-forward="false" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -547,34 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#6;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#8;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#span#0;n#a#0;n#li#9;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#span#0;n#a#0;n#li#10;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#27395#27401#0" expanded="false" />
-            <element signature="e#32365#32371#0" expanded="false" />
-            <element signature="e#34010#34016#0" expanded="false" />
-            <element signature="n#style#0;n#p#5;n#div#2;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#span#7;n#p#5;n#div#2;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#span#8;n#p#5;n#div#2;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#38915#38921#0" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#span#11;n#p#5;n#div#2;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1533117745584" expanded="true" signature="5308:5377" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网络请求/cookiejar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="44" column="22" lean-forward="false" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="22" />
-          <folding>
-            <element signature="e#598#634#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -586,21 +648,203 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/网络请求/requests库/demo_01.py" />
+    <entry file="file://$PROJECT_DIR$/网络请求/urllib库.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络请求/urlparse和urlsplit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="3" lean-forward="false" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/pycharm_project/alembic_demo/venv/Lib/site-packages/requests/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="60" column="19" lean-forward="false" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/网络请求/cookie.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络请求/requests库/baidu中国.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-319">
+          <caret line="2191" column="0" lean-forward="false" selection-start-line="2191" selection-start-column="0" selection-end-line="2191" selection-end-column="0" />
+          <folding>
+            <element signature="e#52414#52561#2" expanded="true" />
+            <element signature="e#67472#67491#1" expanded="true" />
+            <element signature="e#71905#72192#1" expanded="true" />
+            <element signature="e#74329#74348#1" expanded="true" />
+            <element signature="e#74912#75203#2" expanded="true" />
+            <element signature="e#83974#83993#1" expanded="true" />
+            <element signature="e#88407#88694#1" expanded="true" />
+            <element signature="e#90831#90850#1" expanded="true" />
+            <element signature="e#91414#91705#2" expanded="true" />
+            <element signature="n#style#0;n#a#8;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#i#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#i#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#i#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#i#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#i#0;n#td#1;n#tr#4;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tbody#1;n#table#0;n#div#0;n#div#0;n#div#3;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tbody#2;n#table#0;n#div#0;n#div#0;n#div#3;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#237224#237228#0" expanded="true" />
+            <element signature="e#237228#237232#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#239086#239092#0" expanded="true" />
+            <element signature="e#239093#239099#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#239445#239451#0" expanded="true" />
+            <element signature="e#239847#239853#0" expanded="true" />
+            <element signature="e#239854#239860#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h3#0;n#div#2;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#242128#242134#0" expanded="true" />
+            <element signature="e#243189#243195#0" expanded="true" />
+            <element signature="e#243196#243202#0" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#3;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#249238#249244#1" expanded="true" />
+            <element signature="e#250790#250796#1" expanded="true" />
+            <element signature="e#252225#252231#1" expanded="true" />
+            <element signature="e#253666#253672#1" expanded="true" />
+            <element signature="e#254785#254789#0" expanded="true" />
+            <element signature="e#254789#254793#0" expanded="true" />
+            <element signature="e#270535#270539#0" expanded="true" />
+            <element signature="e#270539#270543#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#5;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#5;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#5;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#272713#272719#0" expanded="true" />
+            <element signature="e#273958#273964#0" expanded="true" />
+            <element signature="e#273965#273971#0" expanded="true" />
+            <element signature="e#274499#274505#0" expanded="true" />
+            <element signature="e#274506#274512#0" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#6;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#1;n#div#6;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#2;n#div#0;n#div#1;n#div#6;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#3;n#div#0;n#div#1;n#div#6;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#4;n#div#0;n#div#1;n#div#6;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#318640#318646#0" expanded="true" />
+            <element signature="e#318647#318653#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#7;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#321219#321225#0" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#div#0;n#div#7;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#div#7;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#321732#321738#0" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#7;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#3;n#div#0;n#div#7;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#322211#322217#0" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#3;n#div#0;n#div#7;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#4;n#div#0;n#div#7;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#322685#322691#0" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#4;n#div#0;n#div#7;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#5;n#div#0;n#div#7;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#323181#323187#0" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#5;n#div#0;n#div#7;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#8;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#8;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#8;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#324802#324808#0" expanded="true" />
+            <element signature="e#325180#325186#0" expanded="true" />
+            <element signature="e#325187#325193#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#p#1;n#div#1;n#div#0;n#div#0;n#div#9;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#327493#327497#0" expanded="true" />
+            <element signature="e#327497#327501#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#2;n#div#0;n#div#9;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#339236#339240#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1533130785867" expanded="true" signature="118249:118298" ph="..." />
+            <marker date="1533130785867" expanded="true" signature="347444:347490" ph="..." />
+            <marker date="1533130785867" expanded="true" signature="347729:347775" ph="..." />
+            <marker date="1533130785867" expanded="true" signature="348829:348835" ph=" " />
+            <marker date="1533130785867" expanded="true" signature="349930:349944" ph="..." />
+            <marker date="1533130785867" expanded="true" signature="351213:351245" ph="..." />
+            <marker date="1533130785867" expanded="true" signature="351765:351771" ph=" " />
+            <marker date="1533130785867" expanded="true" signature="374453:374465" ph="..." />
+            <marker date="1533130785867" expanded="true" signature="381407:381420" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络请求/requests库/发送请求.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="5" column="135" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="135" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络请求/requests库/使用代理.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/网络请求/MozillaCookieJar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="168">
+          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="25" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#43#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/pycharm_project/alembic_demo/venv/Lib/site-packages/requests/cookies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="299" column="8" lean-forward="false" selection-start-line="299" selection-start-column="8" selection-end-line="299" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络请求/cookiejar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络请求/requests库/renren.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="101" lean-forward="false" selection-start-line="7" selection-start-column="101" selection-end-line="7" selection-end-column="101" />
+          <folding>
+            <marker date="1533201463984" expanded="true" signature="5306:5375" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络请求/requests库/cookie和session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
