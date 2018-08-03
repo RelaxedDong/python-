@@ -1,5 +1,6 @@
 #encoding:utf-8
 import requests
+
 '''cookie'''
 
 # resp = requests.get('http://www.baidu.com')
@@ -17,9 +18,11 @@ data = {
     'email': '17625567763',
     'password': 'isolate36'
 }
+
 headers = {
     'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
 }
+
 session = requests.session()
 
 session.post(url=login_url,data=data,headers=headers)
