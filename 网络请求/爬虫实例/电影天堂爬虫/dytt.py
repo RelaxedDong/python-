@@ -2,6 +2,17 @@
 
 import requests
 from lxml import etree
+from pymongo import MongoClient
+import time
+
+conn = MongoClient(host='localhost',port=27017)
+db = conn.dytt_spider
+
+collections = db.dytt
+
+
+
+
 
 
 headers = {
@@ -12,17 +23,19 @@ headers = {
 def get_detaul_url():
     movies = []
     url = 'http://www.dytt8.net/html/gndy/dyzz/list_23_{}.html'
-    for index in range(1,2):
+    for index in range(1,7):
         detail_url = url.format(index)
         response = requests.get(detail_url, headers=headers)
-        text = response.content.decode('gbk')
+        text = response.text
         html = etree.HTML(text)
         hrefs = html.xpath('//b/a/@href')
         for href in hrefs:
             href = 'http://www.dytt8.net/' + href
             movie = get_detail(href)
+            print(movie)
             movies.append(movie)
-
+    for i in movies:
+        collections.insert(i)
 
 
 
@@ -39,7 +52,6 @@ def get_detail(detail_url):
     poster =  de_html.xpath('//div[@id="Zoom"]//p[1]//img[1]/@src')
     haibao = de_html.xpath('//div[@id="Zoom"]//p[1]//img[2]/@src')
     title = de_html.xpath('//font[@color="#07519a"]//text()')[0]
-    print(title)
     movie['title']=title
     movie['poster']=poster
     movie['haibao']=haibao
@@ -76,6 +88,9 @@ def get_detail(detail_url):
             description = info.replace('◎导　　演', "").strip()
             movie['description'] = description
     return movie
+
+
+
 if __name__ == '__main__':
     get_detaul_url()
 
