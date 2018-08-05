@@ -138,9 +138,19 @@ a2 = bs.find_all('tr',class_='test',id='test')
 
 trs = bs.find_all('tr')[1:-1]
 for tr in trs:
-    tds = tr.find_all('td')
-    title = tds[0].text
-    print(title)
+    # tds = tr.find_all('td')
+    # title = tds[0].text
+    # print(title)
 
+    # tr.strings获取非标签性的字符串
+    # infos = list(tr.strings)
+    # print(infos)
+    # for info in infos:
+    #     for i in info:
+    #         print(i[1])
+
+
+    tds = list(tr.stripped_strings)
+    print(tds[0])
 #，然后用 get_text() 方法来获取它的内容。
 

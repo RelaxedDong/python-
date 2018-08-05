@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fca8d4c-f4ce-4666-bd0a-1d6d4e925bf5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/网络请求/bs4/数据提取" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/网络请求/bs4/数据提取.py" afterPath="$PROJECT_DIR$/网络请求/bs4/数据提取.py" />
     </list>
@@ -16,7 +15,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/$MozillaCookieJar.coverage" NAME="MozillaCookieJar Coverage Results" MODIFIED="1533127924133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络请求" />
     <SUITE FILE_PATH="coverage/$cookiesession.coverage" NAME="cookie和session Coverage Results" MODIFIED="1533201462991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络请求/requests库" />
-    <SUITE FILE_PATH="coverage/$.coverage" NAME="数据提取 Coverage Results" MODIFIED="1533477898018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络请求/bs4" />
+    <SUITE FILE_PATH="coverage/$.coverage" NAME="数据提取 Coverage Results" MODIFIED="1533478641917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络请求/bs4" />
     <SUITE FILE_PATH="coverage/$douban_spider.coverage" NAME="douban-spider Coverage Results" MODIFIED="1533302150370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络请求/爬虫实例/豆瓣电影爬虫" />
     <SUITE FILE_PATH="coverage/$lxml.coverage" NAME="lxml库 Coverage Results" MODIFIED="1533390765684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络请求/xpath和lxml模块" />
     <SUITE FILE_PATH="coverage/$beautifulsoap.coverage" NAME="beautifulsoap Coverage Results" MODIFIED="1533475944905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络请求/bs4" />
@@ -42,11 +41,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="数据提取" pinned="false" current-in-tab="true">
+      <file leaf-file-name="数据提取" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/网络请求/bs4/数据提取">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="473">
               <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="数据提取.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/网络请求/bs4/数据提取.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="152" column="34" lean-forward="true" selection-start-line="152" selection-start-column="18" selection-end-line="152" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -92,8 +101,8 @@
         <option value="$PROJECT_DIR$/网络请求/爬虫实例/电影天堂爬虫/dytt.py" />
         <option value="$PROJECT_DIR$/网络请求/爬虫实例/腾讯招聘网爬虫/tengxun_spider.py" />
         <option value="$PROJECT_DIR$/网络请求/bs4/beautifulsoap.py" />
-        <option value="$PROJECT_DIR$/网络请求/bs4/数据提取.py" />
         <option value="$PROJECT_DIR$/网络请求/bs4/数据提取" />
+        <option value="$PROJECT_DIR$/网络请求/bs4/数据提取.py" />
       </list>
     </option>
   </component>
@@ -454,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1533477926212</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="bs数据提取文档">
+      <created>1533478083571</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1533478083571</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -474,7 +490,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24287343" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24287343" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15504292" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -536,7 +552,8 @@
     <MESSAGE value="腾讯招聘网爬虫" />
     <MESSAGE value="bs4尝试" />
     <MESSAGE value="bs数据提取" />
-    <option name="LAST_COMMIT_MESSAGE" value="bs数据提取" />
+    <MESSAGE value="bs数据提取文档" />
+    <option name="LAST_COMMIT_MESSAGE" value="bs数据提取文档" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -872,14 +889,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/网络请求/bs4/数据提取.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="144" column="27" lean-forward="false" selection-start-line="144" selection-start-column="27" selection-end-line="144" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/网络请求/xpath和lxml模块/腾讯.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-264">
@@ -892,6 +901,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="473">
           <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络请求/bs4/数据提取.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="152" column="34" lean-forward="true" selection-start-line="152" selection-start-column="18" selection-end-line="152" selection-end-column="34" />
           <folding />
         </state>
       </provider>
