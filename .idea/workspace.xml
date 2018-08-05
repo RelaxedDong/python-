@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fca8d4c-f4ce-4666-bd0a-1d6d4e925bf5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/网络请求/bs4/beautifulsoap.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -419,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1533392432869</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="bs4尝试">
+      <created>1533475672080</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1533475672080</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -499,7 +505,8 @@
     <MESSAGE value="电影天堂爬虫功能完成" />
     <MESSAGE value="mongodb数据保存" />
     <MESSAGE value="腾讯招聘网爬虫" />
-    <option name="LAST_COMMIT_MESSAGE" value="腾讯招聘网爬虫" />
+    <MESSAGE value="bs4尝试" />
+    <option name="LAST_COMMIT_MESSAGE" value="bs4尝试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
