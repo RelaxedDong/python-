@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fca8d4c-f4ce-4666-bd0a-1d6d4e925bf5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/网络请求/bs4/数据提取.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/网络请求/bs4/数据提取" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/网络请求/bs4/数据提取.py" afterPath="$PROJECT_DIR$/网络请求/bs4/数据提取.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,21 +32,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="数据提取.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/网络请求/bs4/数据提取.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="141" column="23" lean-forward="false" selection-start-line="141" selection-start-column="23" selection-end-line="141" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="腾讯.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/网络请求/xpath和lxml模块/腾讯.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-264">
               <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="数据提取" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/网络请求/bs4/数据提取">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -58,6 +59,7 @@
       <list>
         <option value="HTML File" />
         <option value="Python Script" />
+        <option value="Gherkin feature file" />
       </list>
     </option>
   </component>
@@ -91,6 +93,7 @@
         <option value="$PROJECT_DIR$/网络请求/爬虫实例/腾讯招聘网爬虫/tengxun_spider.py" />
         <option value="$PROJECT_DIR$/网络请求/bs4/beautifulsoap.py" />
         <option value="$PROJECT_DIR$/网络请求/bs4/数据提取.py" />
+        <option value="$PROJECT_DIR$/网络请求/bs4/数据提取" />
       </list>
     </option>
   </component>
@@ -141,12 +144,6 @@
               <item name="爬虫代码" type="462c0819:PsiDirectoryNode" />
               <item name="网络请求" type="462c0819:PsiDirectoryNode" />
               <item name="bs4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="爬虫代码" type="b2602c69:ProjectViewProjectNode" />
-              <item name="爬虫代码" type="462c0819:PsiDirectoryNode" />
-              <item name="网络请求" type="462c0819:PsiDirectoryNode" />
-              <item name="xpath和lxml模块" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -450,7 +447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1533475684211</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="bs数据提取">
+      <created>1533477926212</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1533477926212</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -470,7 +474,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24287343" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24287343" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15504292" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -531,20 +535,14 @@
     <MESSAGE value="mongodb数据保存" />
     <MESSAGE value="腾讯招聘网爬虫" />
     <MESSAGE value="bs4尝试" />
-    <option name="LAST_COMMIT_MESSAGE" value="bs4尝试" />
+    <MESSAGE value="bs数据提取" />
+    <option name="LAST_COMMIT_MESSAGE" value="bs数据提取" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/网络请求/自动登录.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/网络请求/proxyhandler代理.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -874,6 +872,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/网络请求/bs4/数据提取.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="144" column="27" lean-forward="false" selection-start-line="144" selection-start-column="27" selection-end-line="144" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/网络请求/xpath和lxml模块/腾讯.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-264">
@@ -882,10 +888,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/网络请求/bs4/数据提取.py">
+    <entry file="file://$PROJECT_DIR$/网络请求/bs4/数据提取">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="141" column="23" lean-forward="false" selection-start-line="141" selection-start-column="23" selection-end-line="141" selection-end-column="23" />
+        <state relative-caret-position="473">
+          <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
           <folding />
         </state>
       </provider>

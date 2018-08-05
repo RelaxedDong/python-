@@ -142,5 +142,5 @@ for tr in trs:
     title = tds[0].text
     print(title)
 
-
+#，然后用 get_text() 方法来获取它的内容。
 
