@@ -2,7 +2,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-
+ALL_DATA= []
 headers = {
         'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
 }
@@ -29,7 +29,8 @@ def parse_page(url):
                     city = list(td_city.stripped_strings)[0]
                     td_high = tds[3]
                     city_high_temp = list(td_high.stripped_strings)[0]
-                print({'城市：':city,'最高温度':city_high_temp})
+
+                ALL_DATA.append({'城市':city,'最高温度':int(city_high_temp)})
 
 
 
@@ -42,15 +43,29 @@ def get_url():
         parse_page(base)
 
 
-
+from pyecharts import Bar
 
 def main():
     url = 'http://www.weather.com.cn/textFC/xn.shtml'
     parse_page(url)
 
 if __name__ == '__main__':
-
     get_url()
+    def data_sort(data):
+        info = data['最高温度']
+        return info
+    ALL_DATA.sort(key=data_sort)
+    print(len(ALL_DATA))
+    print(ALL_DATA)
+    bar = Bar("中国气温排行榜top20")
+    city_name = []
+    temp = []
+    for data in ALL_DATA:
+        city_name.append(data['城市'])
+        temp.append(data['最高温度'])
+    bar.add('气温',city_name[450:],temp[450:])
+    bar.render(path='bar.html')
+
 
 
 
