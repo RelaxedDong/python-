@@ -6,12 +6,12 @@ from bs4 import BeautifulSoup
 headers = {
         'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
 }
-
+import html5lib
 
 def parse_page(url):
         response = requests.get(url,headers=headers)
         text = response.content.decode('utf-8')
-        soup = BeautifulSoup(text,'lxml')
+        soup = BeautifulSoup(text,'html5lib')
         div = soup.find_all('div',class_='conMidtab')[1]
         tables = div.find_all('table')
         for table in tables:
@@ -36,7 +36,7 @@ def parse_page(url):
 
 def get_url():
     url_base = 'http://www.weather.com.cn/textFC/{}.shtml'
-    url_list = ['hb','db','hd','hz','hn','xb','xn']
+    url_list = ['gat','hb','db','hd','hz','hn','xb','xn']
     for url in url_list:
         base = url_base.format(url)
         parse_page(base)
