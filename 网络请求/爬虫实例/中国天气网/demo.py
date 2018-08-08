@@ -29,7 +29,7 @@ def parse_page(url):
                     city = list(td_city.stripped_strings)[0]
                     td_high = tds[3]
                     city_high_temp = list(td_high.stripped_strings)[0]
-
+                print({'城市':city,'最高温度':int(city_high_temp)})
                 ALL_DATA.append({'城市':city,'最高温度':int(city_high_temp)})
 
 
@@ -56,14 +56,14 @@ if __name__ == '__main__':
         return info
     ALL_DATA.sort(key=data_sort)
     print(len(ALL_DATA))
-    print(ALL_DATA)
-    bar = Bar("中国气温排行榜top20")
+
+    bar = Bar("中国气温排行榜top榜")
     city_name = []
     temp = []
     for data in ALL_DATA:
         city_name.append(data['城市'])
         temp.append(data['最高温度'])
-    bar.add('气温',city_name[450:],temp[450:])
+    bar.add('气温',city_name[452:],temp[452:])
     bar.render(path='bar.html')
 
 
