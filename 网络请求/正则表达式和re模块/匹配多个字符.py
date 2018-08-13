@@ -72,6 +72,6 @@ import re
 # print(ret.group())
 
 #匹配0-100数字
-number = '1000'
+number = '98https://user.qzone.qq.com/1417766861/infocenter?via=toolbar'
 ret = re.match('[1-9]\d?$|100$',number)
 print(ret.group())
