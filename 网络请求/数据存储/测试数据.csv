@@ -1,0 +1,15 @@
+id,data_time,province_code,province_name,table_name,board,data_more,status
+1,20170501,011,北京,dwell_plus,bau1,单省,已处理
+2,20170501,012,上海,dwell_plus,bau1,单省,未处理
+3,20170501,013,天津,dwell_plus,bua2,单省,已处理
+4,20170501,011,北京,journey_plus,bua3,单省,未处理
+5,20170501,011,北京,journey_plus,bua3,单省,已处理
+6,20170501,012,上海,journey_plus,bua3,单省,未处理
+7,20170501,013,天津,journey_plus,bua3,单省,已处理
+8,20170508,011,北京,poi_history,bau5,单省,待处理
+9,20170508,012,上海,poi_history,bau5,单省,待处理
+10,20170508,013,天津,poi_history,bau5,单省,待处理
+11,20170508,011,北京,poi_history,bau5,单省,待处理
+12,20170508,011,北京,poi_history,bau5,单省,待处理
+13,20170508,012,上海,poi_history,bau5,单省,待处理
+14,20170508,013,天津,poi_history,bau5,常规,待处理
